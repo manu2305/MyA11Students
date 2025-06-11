@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">4</td><td class="num">99,487</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestCase.FunctionalTesting</td><td><a href="#m0">dws</a></td><td rowspan="1">1748939487331</td><td rowspan="1">17</td></tr><tr class="failedeven"><td><a href="#m1">pk</a></td><td rowspan="1">1748939497530</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="2">TestCase.HomePageModule</td><td><a href="#m2">profileCheck</a></td><td rowspan="1">1748939534796</td><td rowspan="1">15036</td></tr><tr class="failedodd"><td><a href="#m3">simple</a></td><td rowspan="1">1748939569707</td><td rowspan="1">706</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">TestCase.FunctionalTesting</td><td><a href="#m4">mi</a></td><td rowspan="1">1748939504493</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCase.AdminModule</td><td><a href="#m5">admin</a></td><td rowspan="1">1748939521392</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="1">TestCase.FunctionalTesting</td><td><a href="#m6">rcb</a></td><td rowspan="1">1748939507697</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="1">TestCase.HomePageModule</td><td><a href="#m7">adminClick</a></td><td rowspan="1">1748939561111</td><td rowspan="1">715</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TestCase.FunctionalTesting#dws</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at TestCase.FunctionalTesting.dws(FunctionalTesting.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCase.FunctionalTesting#pk</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at TestCase.FunctionalTesting.pk(FunctionalTesting.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCase.HomePageModule#profileCheck</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">iam not present in my correct profile</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at TestCase.HomePageModule.profileCheck(HomePageModule.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCase.HomePageModule#simple</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">simple</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [hava] but found [java]
+	at TestCase.HomePageModule.simple(HomePageModule.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCase.FunctionalTesting#mi</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestCase.FunctionalTesting.mi() on instance TestCase.FunctionalTesting@792b749c depends on not successfully finished methods 
+[TestCase.FunctionalTesting.pk() on instance TestCase.FunctionalTesting@792b749c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCase.AdminModule#admin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCase.FunctionalTesting#rcb</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCase.HomePageModule#adminClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
